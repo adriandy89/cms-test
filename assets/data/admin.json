@@ -1,0 +1,55 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard",
+      "badge": {
+        "color": "red-500",
+        "value": "5"
+      }
+    },
+    {
+      "route": "contract",
+      "name": "contracts",
+      "type": "link",
+      "icon": "chrome_reader_mode"
+    },
+    {
+      "route": "user",
+      "name": "users",
+      "type": "link",
+      "icon": "supervisor_account"
+    },
+    {
+      "route": "organization",
+      "name": "organizations",
+      "type": "link",
+      "icon": "assignment_ind"
+    },
+    {
+      "route": "/",
+      "name": "sessions",
+      "type": "sub",
+      "icon": "question_answer",
+      "children": [
+        {
+          "route": "403",
+          "name": "403",
+          "type": "link"
+        },
+        {
+          "route": "404",
+          "name": "404",
+          "type": "link"
+        },
+        {
+          "route": "500",
+          "name": "500",
+          "type": "link"
+        }
+      ]
+    }
+  ]
+}
